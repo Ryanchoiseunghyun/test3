@@ -1,0 +1,193 @@
+body
+{
+    margin: 0%;    
+    background-image: url("/배경화면대처/배경화면대처.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flexbox
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightEnd
+{
+    display: flex;
+    margin-left: 10px;
+}
+
+.imoticon
+{
+    font-size: 30px;
+    font-family: quicksand;
+    color: #fff;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+}
+.imoticon a
+{
+    margin-left: 10px;
+    font-family: quicksand;
+    color: black;
+    text-decoration: none;
+}
+.middle
+{
+    font-family: quicksand;
+    font-size: 30px;
+    margin: 58px;
+}
+.middle a
+{
+    text-decoration: none;
+    font-family: quicksand;
+    font-size: 30px;
+    color: black;
+}
+
+  .sidebar {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+  }
+  .sidebarDetail
+  {
+    padding-top: 700px;
+    text-decoration: none;
+    width: 10px;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a {
+    padding-left: 50px;
+    text-decoration: none;
+    width: 10px;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 15px;
+    margin-right: 50px;
+  }
+.close-btn a
+{
+    width: 50px;
+    background-color: black;
+}
+
+  .content {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  .open-btn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #818181;
+    margin-top: 50px;
+  }
+  
+  .open-btn:hover {
+    color: #f1f1f1;
+  }
+
+.About_first
+{
+    border: 1px solid black;
+    font-size: 10px;
+    margin-top: 100px;
+}
+
+.About_second
+{
+    border: 1px solid pink;
+    height: 100px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.About_third
+{
+    border: 1px solid grey;
+    font-size: 10px;
+}
+
+.About_third i
+{
+    color: white;
+    font-size: 25px;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+@media screen and (max-width:768px)
+{
+    .mainlogobox
+    {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    .mainpictures1
+    {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    .mainpictures2
+    {
+        flex-direction: column;
+    }
+}
+
+  /* pagination position styling */
+  .pagination_section {
+    position: relative;
+    margin-left: 85%;
+  }
+   
+  /* pagination styling */
+  .pagination_section a {
+    color: black;
+    text-decoration: none;
+  }
+   
+  /* pagination hover effect on non-active */
+  .pagination_section a:hover:not(.active) {
+    background-color: #031F3B;
+    color: white;
+  }
